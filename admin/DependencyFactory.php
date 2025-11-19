@@ -29,5 +29,7 @@ class DependencyFactory {
 
 		new GravityFormsAdapter( $sendWebhookUseCase );
 		new WordpressAdapter( $wpHeartbeatExample, $taskSetup );
+
+        new GravityPdfAdapter();
 	}
 }
